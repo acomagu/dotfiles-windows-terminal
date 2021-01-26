@@ -1,0 +1,49 @@
+{
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "defaultProfile": "{9abcab6b-57ce-4950-896d-0de6ea9d4821}",
+  "alwaysShowTabs": false,
+  "showTabsInTitlebar": false,
+  "profiles": {
+    "defaults": {
+      "fontFace": "Source Code Pro",
+      "fontWeight": "light",
+      "antialiasingMode": "cleartype",
+      "fontSize": 12,
+      "background": "#000"
+    },
+    "list": [
+      {
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "name": "Windows PowerShell",
+        "commandline": "powershell.exe"
+      },
+      {
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+        "name": "Command Prompt",
+        "commandline": "cmd.exe"
+      },
+      {
+        "guid": "{15b79c30-8a4a-5639-b4fc-66e8442c8bb6}",
+        "name": "Manjaro (bash)",
+        "source": "Windows.Terminal.Wsl",
+        "startingDirectory": "//wsl$/Manjaro/home/yuki",
+        "cursorShape": "filledBox",
+        "scrollbarState": "hidden"
+      },
+      {
+        "guid": "{9abcab6b-57ce-4950-896d-0de6ea9d4821}",
+        "name": "Manjaro",
+        "commandline": "wsl.exe genie -c nvim",
+        "startingDirectory": "//wsl$/Manjaro/home/yuki",
+        "cursorShape": "filledBox",
+        "scrollbarState": "hidden"
+      }
+    ]
+  },
+  "actions": [
+    {
+      "command": "find",
+      "keys": "ctrl+shift+f"
+    }
+  ]
+}
