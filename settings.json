@@ -33,7 +33,7 @@
       {
         "guid": "{9abcab6b-57ce-4950-896d-0de6ea9d4821}",
         "name": "Manjaro",
-        "commandline": "wsl.exe genie -c nvim",
+        "commandline": "wsl.exe genie -c bash -l -c nvim",
         "startingDirectory": "//wsl$/Manjaro/home/yuki",
         "cursorShape": "filledBox",
         "scrollbarState": "hidden"
