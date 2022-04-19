@@ -7,3 +7,6 @@ install:V: settings.json
 		exit 1
 	}
 	cp settings.json $"targ
+
+clear-target:V:
+	rm $"targ
